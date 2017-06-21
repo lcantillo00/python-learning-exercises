@@ -1,0 +1,5 @@
+print("Enter a singular noun")
+noun=raw_input()
+print("enter a verb")
+verb=raw_input()
+print("Im have a good " +noun + " in me gusta " + verb)
