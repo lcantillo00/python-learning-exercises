@@ -1,3 +1,5 @@
+
+
 hp = 30
 
 print 'You enter a dark room with two doors. Do you want to enter door #1 or door #2?'
