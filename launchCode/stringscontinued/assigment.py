@@ -1,21 +1,20 @@
-# from test import testEqual
-
+from test import testEqual
 def mirror(text):
     # your code here
-    newstring=text+ reverse(text)
-    return newstring
+    newstr=reverse(text)
+    return text+newstr
 
 def reverse(text):
     w=''
     for x in text:
         w=x+w
-        return w
-
+    return w
 
 
 # Don't copy these tests into Vocareum
 
-print(mirror('good'))
-print(mirror('Python'))
-# testEqual(mirror(''), '')
-# testEqual(mirror('a'), 'aa')
+testEqual(reverse("lilo"),"olil")
+testEqual(mirror('good'), 'gooddoog')
+testEqual(mirror('Python'), 'PythonnohtyP')
+testEqual(mirror(''), '')
+testEqual(mirror('a'), 'aa')

@@ -1,4 +1,4 @@
-from test import testEqual
+# from test import testEqual
 
 def reverse(text):
     w=''
@@ -6,6 +6,7 @@ def reverse(text):
         w=x+w
     return w
 
-testEqual(reverse("happy"), "yppah")
-testEqual(reverse("Python"), "nohtyP")
-testEqual(reverse(""), "")
+# testEqual(reverse("happy"), "yppah")
+# testEqual(reverse("Python"), "nohtyP")
+# testEqual(reverse(""), "")
+print(reverse("lolu"))
